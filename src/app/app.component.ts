@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
   title = 'datatransformation';
-  message_parent:any = "This message being sent from parent";
   recivedata:any;
   showMessage:any = true;
   constructor(){ }
