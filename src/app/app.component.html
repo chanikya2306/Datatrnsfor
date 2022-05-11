@@ -1,0 +1,7 @@
+<app-child [message]="showMessage" (messageEvent)="reciveMessage($event)"></app-child>
+<div class="parentComponent">
+  <div *ngIf="showMessage">
+  </div>
+  <h3>This is the parent Component</h3>
+  <p>{{recivedata}}</p>
+</div>
